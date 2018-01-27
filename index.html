@@ -10,13 +10,3 @@
     <title>My personal website</title>
 </head>
 <h2 id="print">Site coming soon</h2>
-{% with messages = get_flashed_messages() %}
-  {% if messages %}
-    <ul class=flashes>
-    {% for message in messages %}
-      <p>{{ message }}</p>
-    {% endfor %}
-    </ul>
-  {% endif %}
-{% endwith %}
-{% block body %}{% endblock %}
