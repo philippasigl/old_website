@@ -1,52 +1,81 @@
 /* custom styles */
 
 html {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 10;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
 }
 
 h2 {
-    background-color: #222;
+    /*background-color: #222;*/
     height: 30px;
-    padding: 10px;
-    color: white;
-    font-weight: 400;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0px;
+    /*text-transform: uppercase;*/
   }
 
-#uploadBox {
-    background-color: white;
-    height: 90px;
-    padding: 10px;
-    color: #222;
-}  
 body {
-    background-color:#dfdfdf;
+    background-color:#f0f0ef;
     padding: 0px;
   }
 
-.center-aligned-controls {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
-    width: 100%
-} 
+img {
+    width: 150px;
+    margin: 10px;
+}  
 
-.showcase-button {
-    background: white;
-    border: thin solid #333;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 10;
-    font-weight: 600;
-    padding: 5px 10px;
-}
+.panel {
+    padding: 20px;
+    display: inline-block;
+    height: 100vh;
+}  
+
+p.social {
+    margin-top: 20px;
+  }
+  p.social a {
+    margin: 0 10px 10px 0;
+    color: #fff;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: bottom;
+    border: solid 1px #999999;
+    color: #999999;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+
+.portfolio {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}  
 
 .showcase-tile {
+    display: inline-block;
     background-color: white;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
-    padding: 12px;
-    margin: 10;
-    width: 100%;
+    padding: 5px;
+    margin: 10px;
+    width: 500px; 
+    height: 400px;
+}
+
+#sidebar {
+    width: 25vw;
+    vertical-align: top;
+}
+
+#main {
+    width: 65vw;
+    vertical-align: middle;
+    margin: auto;
 }
