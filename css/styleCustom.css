@@ -2,18 +2,25 @@
 
 html {
     font-family: 'Quicksand', sans-serif;
-    font-size: 12px;
+    font-size: 0.9vw;
 }
 
 h2 {
     /*background-color: #222;*/
     height: 30px;
-    color: black;
-    font-weight: 600;
-    font-size: 20px;
+    color: black; 
+    font-weight: 500;
+    font-size: 1.5vw;
     padding: 0px;
     /*text-transform: uppercase;*/
   }
+
+h3 {
+    color: black;
+    color: #999999; 
+    font-size: 0.9vw;
+    padding-left: 10px;
+}
 
 body {
     background-color:#f0f0ef;
@@ -21,16 +28,20 @@ body {
   }
 
 img {
-    width: 150px;
-    margin: 10px;
+    margin: auto;
 }  
 
 .panel {
-    padding: 20px;
     display: inline-block;
-    height: 100vh;
+    height: 100%;
+    margin: 20px;
+    padding: 0px;
 }  
 
+.container {
+    margin-top: 20px;
+}
+/*
 p.social {
     margin-top: 20px;
   }
@@ -38,11 +49,10 @@ p.social {
     margin: 0 10px 10px 0;
     color: #fff;
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
+    width: 2.4vw;
+    height: 5vh;
+    border-radius: 2rem;
     line-height: 40px;
-    font-size: 15px;
     text-align: center;
     vertical-align: bottom;
     border: solid 1px #999999;
@@ -51,6 +61,15 @@ p.social {
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
   }
+*/
+  .fa {
+    color: #999999;  
+    
+    font-size: 0.9vw;
+    width: 2rem;
+    text-align: center;
+    text-decoration: none;
+}
 
 .portfolio {
     display: inline-block;
@@ -65,8 +84,9 @@ p.social {
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
     padding: 5px;
     margin: 10px;
-    width: 500px; 
-    height: 400px;
+    margin-bottom: 20px;
+    width: 105%;
+    height: 18em; 
 }
 
 #sidebar {
@@ -78,4 +98,8 @@ p.social {
     width: 65vw;
     vertical-align: middle;
     margin: auto;
+}
+
+#portrait {
+    width: 40%;
 }
