@@ -86,7 +86,7 @@ p.social {
     margin: 10px;
     margin-bottom: 20px;
     width: 105%;
-    height: 18em; 
+    height: 80%
 }
 
 #sidebar {
@@ -101,5 +101,5 @@ p.social {
 }
 
 #portrait {
-    width: 40%;
+    width: 60%;
 }
