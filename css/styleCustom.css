@@ -6,6 +6,10 @@ html {
     text-transform: none !important;
 }
 
+h1 {
+    text-transform: none !important;
+}
+
 h2 {
     /*background-color: #222;*/
     height: 30px;
@@ -26,6 +30,7 @@ h3 {
 h4 {
     text-transform: none !important;
 }
+
 body {
     background-color:#f0f0ef;
     padding: 0px;
