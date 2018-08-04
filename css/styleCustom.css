@@ -1,7 +1,7 @@
 /* custom styles */
 
 html {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.9vw;
 }
 
@@ -12,7 +12,7 @@ h2 {
     font-weight: 500;
     font-size: 1.5vw;
     padding: 0px;
-    /*text-transform: uppercase;*/
+    text-transform: none !important;
   }
 
 h3 {
@@ -22,6 +22,9 @@ h3 {
     padding-left: 10px;
 }
 
+h4 {
+    text-transform: none !important;
+}
 body {
     background-color:#f0f0ef;
     padding: 0px;
@@ -29,6 +32,8 @@ body {
 
 img {
     margin: auto;
+    max-height: 100%;
+    max-width: 100%;
 }  
 
 .panel {
@@ -69,6 +74,7 @@ p.social {
     width: 2rem;
     text-align: center;
     text-decoration: none;
+    margin: 0;
 }
 
 .portfolio {
@@ -77,10 +83,10 @@ p.social {
     margin: auto;
 }  
 
+/*
 .showcase-tile {
     display: inline-block;
     background-color: white;
-    /*border-radius: 5px;*/
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
     padding: 5px;
     margin: 10px;
@@ -88,11 +94,7 @@ p.social {
     width: 105%;
     height: 80%
 }
-
-#sidebar {
-    width: 25vw;
-    vertical-align: top;
-}
+*/
 
 #main {
     width: 65vw;
@@ -102,4 +104,8 @@ p.social {
 
 #portrait {
     width: 60%;
+}
+
+.box-masonry .box-masonry-image{
+    background: white !important;
 }
