@@ -3,6 +3,7 @@
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 0.9vw;
+    text-transform: none !important;
 }
 
 h2 {
