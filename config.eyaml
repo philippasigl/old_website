@@ -1,0 +1,29 @@
+baseurl: http://philippasigl.github.io/
+title: Philippa Sigl-Gloeckner
+theme: hugo-creative-portfolio-theme
+languageCode: en-us
+disqusShortname: sigl
+googleAnalytics: 
+params:
+  style: sea
+  description: Describe your website
+  copyright: "&copy;2018 Philippa Sigl-Gloeckner"
+  sidebarAbout:
+  - xx
+  - xx
+  email: philippasigl.com
+  social:
+    email: philippasigl.com
+    phone: 
+    twitter: 
+    linkedin: 
+    stackoverflow: 
+    github: https://github.com/crubier
+    web: http://crubier.net
+  navlinks:
+  - name: Home
+    url: ''
+  - name: About
+    url: about/
+  - name: Contact
+    url: contact/
